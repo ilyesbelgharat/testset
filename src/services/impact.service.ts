@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {Http} from '@angular/http';
 import {map} from 'rxjs/operators';
-import {UndesirableEvent} from '../model/model.UndesirableEvent';
+import {UndesirableEvent} from '../model/model.undesirableEvent';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {AuthentificationService} from './authentification.service';
 import {Impact} from '../model/model.impact';
