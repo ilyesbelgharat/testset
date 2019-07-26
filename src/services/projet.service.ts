@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {Http} from '@angular/http';
 import {map} from 'rxjs/operators';
-import {Projet} from 'testset/src/model/model.projet.ts';
+import {Projet} from 'testset/src/model/model.projet';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {AuthentificationService} from './authentification.service';
 import {Router} from '@angular/router';
