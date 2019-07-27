@@ -8,9 +8,9 @@ const app = express();
 app.use(express.static(__dirname + '/dist/@coreui/coreui-free-angular-admin-template'));
 
 app.all('*', (req, res) => {  
-  res.status(200).sendFile(__dirname + '/dist/@coreui/coreui-free-angular-admin-template/index.html');  
+ res.sendFile(path.join(__dirname + '/dist/@coreui/coreui-free-angular-admin-template/index.html'));  
 });  
 app.listen(process.env.PORT || 8080);  
 
 // Start the app by listening on the default Heroku port
-app.listen(process.env.PORT || 8080);
+
