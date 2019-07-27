@@ -8,7 +8,7 @@ const app = express();
 app.use(express.static(__dirname + '/dist/@coreui/coreui-free-angular-admin-template'));
 
 app.all('*', (req, res) => {  
- res.sendFile(path.join(__dirname + '/dist/@coreui/coreui-free-angular-admin-template/index.html'));  
+ res.sendFile(path.join(__dirname + '/dist/+ "@coreui/coreui-free-angular-admin-template" + /index.html'));  
 });  
 app.listen(process.env.PORT || 8080);  
 
